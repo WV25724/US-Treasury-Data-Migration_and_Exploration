@@ -11,5 +11,11 @@ The tools used for this project were
   3. Pandas – for cleaning and transforming the dataset.
   4. SQLite – as the target SQL database for storage and querying.
 
+Screenshot of code:
+<img width="1159" height="550" alt="Screeenshot for github" src="https://github.com/user-attachments/assets/7a4919e1-39ec-4f7e-9578-654feb736a4c" />
 
+Why use SQLite?
+- There are two reasons I chose to use SQLite instead of other database management systems
+- 1. SQLite is portable and serverless. Since I was the sole user making changes to a local database, a full database server was unnecessary
+- 2. Pandas has builtin support for SQLite via sqlite3, making it easier to read and write to a database directly. This allowed me to focus on the concepts behind data migration
 
