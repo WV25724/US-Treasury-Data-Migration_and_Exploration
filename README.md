@@ -20,8 +20,12 @@ Why use SQLite?
 - 2. Pandas has builtin support for SQLite via sqlite3, making it easier to read and write to a database directly. This allowed me to focus on the concepts behind data migration
 
 Query 1: Write a SQL query to rank all currencies by their exchange rate from highest to lowest, showing the currency name, exchange rate
+
   Query Code:
   <img width="463" height="209" alt="Query 1 Code" src="https://github.com/user-attachments/assets/70175fcc-7eac-4d23-af6d-332b82d21888" />
+
+
+  
   Query Output:
   <img width="369" height="178" alt="Query 1 Result" src="https://github.com/user-attachments/assets/26a1c145-634b-4ec1-a328-ed7c99265631" />
 Analysis:
