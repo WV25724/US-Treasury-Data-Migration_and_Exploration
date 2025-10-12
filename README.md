@@ -25,6 +25,7 @@ Query 1: Write a SQL query to rank all currencies by their exchange rate from hi
   <img width="463" height="209" alt="Query 1 Code" src="https://github.com/user-attachments/assets/70175fcc-7eac-4d23-af6d-332b82d21888" />
 
 
+
   
   Query Output:
   <img width="369" height="178" alt="Query 1 Result" src="https://github.com/user-attachments/assets/26a1c145-634b-4ec1-a328-ed7c99265631" />
