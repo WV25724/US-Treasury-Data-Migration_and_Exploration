@@ -22,6 +22,26 @@ df_small['exchange_rate'] = df['exchange_rate'].fillna(0)
 # Load Data into SQLite
 conn = sqlite3.connect('exchange_rate.db')
 df.to_sql('exchange_rate', conn, if_exists='replace', index=False)
-query = "SELECT record_date, country_currency_desc, exchange_rate FROM exchange_rate ORDER BY exchange_rate DESC LIMIT 5"
-print(pd.read_sql(query, conn))
-conn.close()
+
+#Ranking Currencies by Exchange Rate From Highest To Lowest
+Desc_Query = """
+SELECT 
+    record_date, 
+    country_currency_desc, 
+    exchange_rate 
+FROM exchange_rate 
+ORDER BY exchange_rate DESC
+"""
+print(pd.read_sql(Desc_Query, conn))
+
+#Finding How Many Currencies Have An Exchange Rate Below 1 (i.e., stronger than USD).
+Exchange_Rate_Below_1_Query = """
+SELECT 
+    country_currency_desc, 
+    exchange_rate,    
+    COUNT(country_currency_desc) OVER () AS num_of_currency
+FROM exchange_rate
+WHERE exchange_rate < 1.0
+ORDER BY exchange_rate ASC;
+"""
+print(pd.read_sql(Exchange_Rate_Below_1_Query, conn))
