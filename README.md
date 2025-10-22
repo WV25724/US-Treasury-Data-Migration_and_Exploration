@@ -1,4 +1,4 @@
-# ETL-Learning-Project-US-Treasury-Exchange-Rate
+# US-Treasury-Data-Migration&Exploration
 This project is a hands-on ETL (Extract, Transform, Load) learning exercise using the U.S. Treasury Exchange Rate API. It demonstrates how to collect exchange rate data, process it for analysis, and load it into a structured database for further use.
 This project was created to consolidate understanding of ETL (Extract, Transform, Load) and extend that knowledge by learning how to:
   1. Extract financial data from a web API (U.S. Treasury Fiscal Data).
