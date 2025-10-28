@@ -37,9 +37,13 @@ Analysis:
 Query 2: Finding which currencies are stronger than the USD
 
 Query Code:
+
+
 <img width="629" height="228" alt="Query 2 Code" src="https://github.com/user-attachments/assets/bd9dbfae-9294-4b30-8cfe-20a2023321eb" />
 
 Query Output:
+
+
 <img width="343" height="253" alt="Query 2 Result" src="https://github.com/user-attachments/assets/4b530f70-baf0-4c33-8783-750196638d53" />
 
 Analysis:
