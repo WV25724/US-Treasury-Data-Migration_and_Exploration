@@ -32,4 +32,9 @@ Query 1: Write a SQL query to rank all currencies by their exchange rate from hi
 
 Analysis:
 
-- We can see the Guinea Franc (GNF) has the highest exchange rate at 1 USD to 9380 GNF. This indicates the GNF is very weak in comparison to the US dollar. Alternatively, we can see the Kuwait Dinar (KWD) has the lowest exchange rate at 1 USD to 0.314 KWD ie every 1 KWD is worth approx 3.18 USD, making it a significantly stronger currency. 
+- We can see the Guinea Franc (GNF) has the highest exchange rate at 1 USD to 9380 GNF. This indicates the GNF is very weak in comparison to the US dollar. Alternatively, we can see the Kuwait Dinar (KWD) has the lowest exchange rate at 1 USD to 0.314 KWD ie every 1 KWD is worth approx 3.18 USD, making it a significantly stronger currency.
+
+Query 2:
+https://github.com/WV25724/US-Treasury-Data-Migration_and_Exploration/blob/main/Query%202%20Code.png
+
+https://github.com/WV25724/US-Treasury-Data-Migration_and_Exploration/blob/main/Query%202%20Result.png
