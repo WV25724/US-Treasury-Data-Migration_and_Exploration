@@ -35,6 +35,7 @@ Analysis:
 - We can see the Guinea Franc (GNF) has the highest exchange rate at 1 USD to 9380 GNF. This indicates the GNF is very weak in comparison to the US dollar. Alternatively, we can see the Kuwait Dinar (KWD) has the lowest exchange rate at 1 USD to 0.314 KWD ie every 1 KWD is worth approx 3.18 USD, making it a significantly stronger currency.
 
 Query 2: Finding which currencies are stronger than the USD
+
 Query Code:
 <img width="629" height="228" alt="Query 2 Code" src="https://github.com/user-attachments/assets/bd9dbfae-9294-4b30-8cfe-20a2023321eb" />
 
